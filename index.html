@@ -62,7 +62,8 @@
 
             
 <ul class="nav navbar-nav navbar-left">
-    <li>   <a href="#contact" > <i class="fa fa-phone fa-fw"></i> <span> 1-877-564-2427</span></a> </li>
+    <li>   <a href="#contact" > <i class="fa fa-phone fa-fw"></i> <span> <abbr title="Phone">
+                    1-877-564-2427</abbr></span></a> </li>
 </ul> 
 
 
@@ -311,9 +312,9 @@
         <!-- /.container -->
 
     </div>
+ <!-- /.banner -->
 
-
-<div class="jumbotron jumbotron-sm">
+<div class="jumbotron ">
     <div class="container">
         <div class="row">
            
@@ -321,6 +322,8 @@
     </div>
 </div>
 
+
+<!-- Contact form -->
     <div class="container">
     <div class="row">
         <div class="col-md-8">
@@ -330,20 +333,31 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
-                                Name</label>
+                                Name*</label>
                             <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
                         </div>
                         <div class="form-group">
                             <label for="email">
-                                Email Address</label>
+                                Email Address*</label>
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
                                 </span>
                                 <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
                         </div>
+
+<div class="form-group">
+        <label for="phone">
+            Phone Number</label>
+        <div class="input-group">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span>
+            </span>
+            <input type="phone" class="form-control" id="phone" placeholder="Enter phone (optional)" required="required" /></div>
+    </div>
+
+
                         <div class="form-group">
                             <label for="subject">
-                                Subject</label>
+                                Subject*</label>
                             <select id="subject" name="subject" class="form-control" required="required">
                                 <option value="na" selected="">Choose One:</option>
                                 <option value="service">General Customer Service</option>
@@ -355,14 +369,14 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
-                                Message</label>
-                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                Message*</label>
+                            <textarea name="message" id="message" class="form-control" rows="12" cols="25" required="required"
                                 placeholder="Message"></textarea>
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
-                            Send Message</button>
+                        <button type="submit" class="btn btn-default btn-md pull-right" id="btnContactUs">
+                           <i class="fa fa-bold fa-paper-plane"></i> <span> Send Message</span></button>
                     </div>
                 </div>
                 </form>
@@ -386,16 +400,18 @@
             </address>
             <address>
                 <strong>Amardeep Bedi</strong><br>
-                <a href="mailto:#">a.bedi@rfmi.ca</a><br> 
+                <a href="mailto:a.bedi@rfmi.ca"> Email: a.bedi@rfmi.ca</a><br> 
                      <abbr title="Cell">
                     Cell: 416-899-3972</abbr>
             </address>
             </form>
         </div>
     </div>
-</div>
 
-    <!-- /.banner -->
+
+
+
+   
 
     <!-- Footer -->
     <footer>
