@@ -46,7 +46,10 @@
 
             <!-- Brand and toggle get grouped for better mobile display -->
 
- <a class="navbar-brand topnav" href="#"><img style="max-height: 75px; margin-top: -7px;" src="img/logo.jpg" ></a>
+ <a class="navbar-brand topnav" href="#" > <img style="max-height: 75px; margin-top: -7px;" src="img/logo.jpg" ></a>
+ 
+
+
             
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -55,16 +58,26 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         
+             
+                <ul class="nav navbar-nav visible-xs">
+                    <li class="pull-right"><a href="tel:1-877-564-2427"><i class="glyphicon glyphicon-phone"></i></a></li>
+                    <li class="pull-right"><a href="#contact1"><i class="glyphicon glyphicon-map-marker"></i></a></li>
+                </ul>
+               
 
-            
-<ul class="nav navbar-nav navbar-left">
-    <li>   <a href="#contact" > <i class="fa fa-phone fa-fw"></i> <span> <abbr title="Phone">
-                    1-877-564-2427</abbr></span></a> </li>
-</ul> 
+</div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+  
+
+
+ <ul class="nav navbar-nav navbar-left hidden-xs">
+                <li> <a href="#contact" ><i class="fa fa-phone fa-fw"></i><span>1-877-564-2427</span></a> </li>
+   </ul>  
+
+
+ <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 
      <ul class="nav navbar-nav navbar-right">
@@ -127,7 +140,7 @@
                                   <div class="intro-message">
                                                     <h1>Plan Your Financial Sucess</h1>
                                                     <h3>Learn more about us</h3>
-                                                    <hr class="intro-divider">
+                                                    <hr class="intro-divider"> 
                                                     <ul class="list-inline intro-social-buttons">
                                                         
                                                         <li>
@@ -376,32 +389,35 @@
                     </div>
                     <div class="col-md-12">
                         <button type="submit" class="btn btn-default btn-md pull-right" id="btnContactUs">
-                           <i class="fa fa-bold fa-paper-plane"></i> <span> Send Message</span></button>
+                           <i class="fa fa-bold fa-paper-plane"></i> <span>Send Message</span></button>
                     </div>
                 </div>
                 </form>
             </div>
         </div>
+
+
+        <a  name="contact1"></a>
         <div class="col-md-4">
             <form>
             <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
             <address>
                 <strong>Royal Financial Management Inc.</strong><br>
-                #6, 1332 Khalsa Drive,<br>
-                Mississauga, On, L5S0A2<br>
-                <abbr title="Phone">
-                    Toll Free: 1-877-564-2427</abbr><br>
-                     <abbr title="Phone"> 
-                    Office: 905-564-2427</abbr><br> 
-                     <abbr title="Fax"> 
-                    Fax: 905-564-2401</abbr>
+                <a href="https://www.google.ca/maps/place/1332+Khalsa+Dr+%236,+Mississauga,+ON+L5S+0A2/@43.6735312,-79.6802289,17z/data=!3m1!4b1!4m5!3m4!1s0x882b3ee6833d181f:0xb822d85ea281265b!8m2!3d43.6735273!4d-79.6780402"> #6, 1332 Khalsa Drive,<br>
+                Mississauga, On, L5S0A2 </a><br>
+                <a href="tel: 1-877-564-2427">
+                    Toll Free: 1-877-564-2427</a><br>
+                     <a href="tel:905-564-2427"> 
+                    Office: 905-564-2427</a><br> 
+                     <p> 
+                    Fax: 905-564-2401</p>
 
                 
             </address>
             <address>
                 <strong>Amardeep Bedi</strong><br>
                 <a href="mailto:a.bedi@rfmi.ca"> Email: a.bedi@rfmi.ca</a><br> 
-                     <abbr title="Cell">
+                     <a href="tel:416-899-3972">
                     Cell: 416-899-3972</abbr>
             </address>
             </form>
@@ -435,8 +451,7 @@
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small"> Copyright &copy; rfmi.ca All Rights Reserved |
-                    Designed by: codefined.ca</p>
+                    <p class="copyright text-muted small"> Copyright &copy; rfmi.ca All Rights Reserved <br> Defining dreams with code : <a href="http://codefined.ca/">codefined.ca</a></p>
                 </div>
             </div>
         </div>

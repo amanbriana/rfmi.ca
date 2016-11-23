@@ -22,12 +22,13 @@ Image credits: unsplash.com
 .fade-carousel .carousel-inner .item {
     height: 100vh;
 }
-.fade-carousel .carousel-indicators > li {
+ .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
     background-color: #f39c12;
     border-color: #f39c12;
     opacity: .7;
 }
+
 .fade-carousel .carousel-indicators > li.active {
   width: 10px;
   height: 10px;
@@ -52,7 +53,7 @@ Image credits: unsplash.com
            -o-transform: translate3d(-50%,-50%,0);
               transform: translate3d(-50%,-50%,0);
 }
-.hero h1 {
+ .hero h1 {
     font-size: 6em;    
     font-weight: bold;
     margin: 0;
@@ -90,7 +91,7 @@ Image credits: unsplash.com
 
 /********************************/
 /*          Custom Buttons      */
-/********************************/
+/*******************************
 .btn.btn-lg {padding: 10px 40px;}
 .btn.btn-hero,
 .btn.btn-hero:hover,
@@ -106,8 +107,8 @@ Image credits: unsplash.com
 /*       Slides backgrounds     */
 /********************************/
 .fade-carousel .slides .slide-1, 
-.fade-carousel .slides .slide-2,
-.fade-carousel .slides .slide-3 {
+.fade-carousel .slides .slide-2/*,
+.fade-carousel .slides .slide-3 */{
   height: 100vh;
   background-size: cover;
   background-position: center center;
@@ -129,10 +130,15 @@ Image credits: unsplash.com
 /*          Media Queries       */
 /********************************/
 @media screen and (min-width: 980px){
-    .hero { width: 980px; }    
+    .hero { width: 980px; }
+     
 }
+
 @media screen and (max-width: 640px){
-    .hero h1 { font-size: 4em; }    
+    .hero h1 { font-size: 4em; } 
+
+    .navbar-brand img { 
+   height: 60px }     
 }
 
 
